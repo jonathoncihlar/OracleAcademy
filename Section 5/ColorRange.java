@@ -1,5 +1,5 @@
 /**
- *  ColorRange
+ * ColorRange
  * Implements a solution for Oracle Academy's Java Foundations Course
  * for the Section 5 Practice Problem 1, which implements a multi-way
  * conditional statement to return a color given a wavelength.
