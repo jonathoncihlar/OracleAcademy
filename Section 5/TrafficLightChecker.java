@@ -21,7 +21,11 @@ public class TrafficLightChecker {
         System.out.println(getNextLight(currentLight));
     }
 
-        // process color code and output
+    /**
+     * Gets the next light based on the current light code. (1-red, 2-green, 3-yellow)
+     * @param currentLight 
+     * @return String representing what the next color is.
+     */
     public static String getNextLight(int currentLight) {
 
         String msg = "Next traffic light is ";
