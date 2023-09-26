@@ -9,7 +9,6 @@
 
 import java.util.Scanner;
 public class JavaLibsPractice {
- 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 
@@ -68,8 +67,5 @@ public class JavaLibsPractice {
                            2*periodOfTime, action);
             // output
         System.out.println(story);
-
     }   
-
-
 }
