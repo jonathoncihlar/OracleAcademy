@@ -30,9 +30,11 @@ public class ProcessName {
     public static String processName(String fullName) {
         int spaceLocation = fullName.indexOf(" "); // find the space
 
+            // grab first initial and last name
         String firstInitial = fullName.substring(0, 1);
         String lastName = fullName.substring(spaceLocation+1);
 
-        return lastName + ", " + firstInitial + ".";
+            // return formatted name
+        return String.format("%s, %s.", lastName, firstInitial);
     }
 }
